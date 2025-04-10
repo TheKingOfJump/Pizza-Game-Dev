@@ -1,6 +1,6 @@
 body{
-    background-image: url("IMG/PGD_doodle_grigio_v2.png") center center;
-    cursor: url("IMG/Pixel_cursor.png"),auto;
+    background-image: url("../IMG/PGD_doodle_grigio_v2.png") center center;
+    cursor: url("../IMG/Pixel_cursor.png"),auto;
 }
 
 button{
@@ -15,7 +15,7 @@ button{
     user-select: none;
     border: solid 0.3vw #0a0a0a;
     text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
-    cursor: url("IMG/Pixel_pointer.png"),auto;
+    cursor: url("../IMG/Pixel_pointer.png"),auto;
 }
 
 h1{
@@ -62,7 +62,7 @@ p{
 
 img{
     user-select: none;
-    cursor: url("IMG/Pixel_pointer.png"),auto;
+    cursor: url("../IMG/Pixel_pointer.png"),auto;
 }
 
 footer{
