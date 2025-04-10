@@ -3,18 +3,18 @@ let sfondo = "chiaro";
 async function cambia() {
     let sfondo = localStorage.getItem("sfondo");
     if (sfondo === "chiaro"){
-        document.querySelector('body').style.background = "url('../SitoPGD/IMG/PGD_doodle_nero_v2.png') center center";
+        document.querySelector('body').style.background = "url('IMG/PGD_doodle_nero_v2.png') center center";
         document.querySelector('body').style.backgroundSize = "250%";
-        document.querySelector('#CambioTema').style.backgroundImage = "url('../SitoPGD/IMG/Icona\ chiaro.png')";
+        document.querySelector('#CambioTema').style.backgroundImage = "url('IMG/Icona\ chiaro.png')";
         document.querySelector('#CambioTema').style.backgroundPosition = "50% 50%";
         document.querySelector('#CambioTema').style.backgroundColor = "rgb(229, 230, 229)";
         sfondo = "scuro";
         localStorage.setItem("sfondo", "scuro");
     }
     else{
-        document.querySelector('body').style.background = "url('../SitoPGD/IMG/PGD_doodle_grigio_v2.png') center center";
+        document.querySelector('body').style.background = "url('IMG/PGD_doodle_grigio_v2.png') center center";
         document.querySelector('body').style.backgroundSize = "250%";
-        document.querySelector('#CambioTema').style.backgroundImage = "url('../SitoPGD/IMG/Icona\ scuro.png')";
+        document.querySelector('#CambioTema').style.backgroundImage = "url('IMG/Icona\ scuro.png')";
         document.querySelector('#CambioTema').style.backgroundPosition = "50% 50%";
         document.querySelector('#CambioTema').style.backgroundColor = "rgb(28, 28, 28)";
         sfondo = "chiaro";
@@ -46,17 +46,17 @@ async function cambia2() {
 async function TemaSelezionato(){
     let sfondo = localStorage.getItem("sfondo");
     if (sfondo === "chiaro"){
-            document.querySelector('body').style.background = "url('../SitoPGD/IMG/PGD_doodle_grigio_v2.png') center center";
+            document.querySelector('body').style.background = "url('IMG/PGD_doodle_grigio_v2.png') center center";
             document.querySelector('body').style.backgroundSize = "250%";
-            document.querySelector('#CambioTema').style.backgroundImage = "url('../SitoPGD/IMG/Icona\ scuro.png')";
+            document.querySelector('#CambioTema').style.backgroundImage = "url('IMG/Icona\ scuro.png')";
             document.querySelector('#CambioTema').style.backgroundPosition = "50% 50%";
             document.querySelector('#CambioTema').style.backgroundColor = "rgb(28, 28, 28)";
             localStorage.setItem("sfondo", "chiaro");
         }
         else{
-            document.querySelector('body').style.background = "url('../SitoPGD/IMG/PGD_doodle_nero_v2.png') center center";
+            document.querySelector('body').style.background = "url('IMG/PGD_doodle_nero_v2.png') center center";
             document.querySelector('body').style.backgroundSize = "250%";
-            document.querySelector('#CambioTema').style.backgroundImage = "url('../SitoPGD/IMG/Icona\ chiaro.png')";
+            document.querySelector('#CambioTema').style.backgroundImage = "url('IMG/Icona\ chiaro.png')";
             document.querySelector('#CambioTema').style.backgroundPosition = "50% 50%";
             document.querySelector('#CambioTema').style.backgroundColor = "rgb(229, 230, 229)";
             localStorage.setItem("sfondo", "scuro");
