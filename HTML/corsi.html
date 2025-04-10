@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PizzaGameDev Corsi</title>
+        <link rel="stylesheet" href="../CSS/Css_Corsi.css">
+    </head>  
+    <body onpageshow="TemaSelezionato3()" id="BD">
+        <img id="Fett0" src="../IMG/PerFett0-IndicataFelice.gif" alt="">
+        <button id="CambioTema" onclick="cambia2()">
+        </button>
+        <div>
+            <button id="button_home" onclick=homeClickEvent2()>Home</button>
+            <button id="button_social" onclick=socialClickEvent2()>Social</button>
+            <button id="button_team" onclick=teamClickEvent2()>Team</button>
+            <button id="button_corsi" onclick=corsiClickEvent2()>Corsi</button>
+        </div>
+        <img id="logo" src="../IMG/PizzaGameDevTrasp.png" alt="" onclick=logoClickEvent2()>
+
+        <button onclick="SezioneGeneri('Generi')" class="tag" id="GeneriBTN">Generi videoludici</button>
+        <button onclick="SezioneAutori('Autori')" class="tag" id="AutoriBTN">Autori e team di sviluppo</button>
+        <button onclick="SezioneRuoli('Ruoli')" class="tag" id="RuoliBTN">Ruoli di sviluppo</button>
+        <button onclick="SezioneCuriosità('Curiosità')" class="tag" id="CuriositàBTN">Curiosità</button>
+        <button onclick="SezioneTutorial('Tutorial')" class="tag" id="TutorialBTN">Tutorial</button>
+
+        <div id="Generi" class="sezione">
+            <div class="container2">
+                <iframe src="https://www.instagram.com/p/DEkS6CTAQcB/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/DC4JhX6t_B_/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/DCEylCAAgez/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/DBOkPA6AH11/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/DAoUSWUO0uc/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C_0qxZkA7ag/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C_OEp7WNulz/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C-vCHCDNWbT/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C-IM29kqfFo/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C9hk7P_o0Rn/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C89hzIVMB_5/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C8Zeq9fsy5s/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C71bjAUISUV/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C7RYapWhivt/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C6tVSwRN89r/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C6JSKK6JkE7/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C5j8oK-O777/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C5BSw9worYX/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C4dPo0Pp_SS/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C35Mg0giS7b/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C3VJYH5Bqu5/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C2xGP1tN7c9/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C2NDHT5sDWJ/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C1o__NpL-Uo/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C1DqdlOp7Yf/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C0fnV3xpmhY/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/Cz82nH9LRFS/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CzYzec-N-rM/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/Cy0penjh1bn/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/CyQmWKiC00I/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CxsjOH6ioAU/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CxIgGZiqDqj/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/Cwkc9S-IFHc/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CwAZ1cQojMe/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CvcWtHmIQmS/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/Cu3BaQvI7L_/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CuUQrQDqUVA/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CtwqwOpKCEF/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/CtMKavpIOxp/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/Csonf5CrIPN/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CsEGlv7NY0I/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div id="Autori" class="sezione">
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C4LOFF-Kz0_/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C3nK8YNvoQA/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C3DH0X8KQzl/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C2fErmgoniA/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C17Bj9tKshV/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C1W-bPRhQmg/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/C0y7TEFJfs_/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/C0O4LEALuTO/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/Czq1CidB7kC/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div id="Ruoli" class="sezione">
+            <div class="container2">
+                <iframe src="https://www.instagram.com/p/CzGx6acoE8C/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CyirSKaqCZL/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/Cx-ky1qicJN/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CxahqCMorwQ/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/Cw2eiGqKKrs/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/CwSbZgEIxFm/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CvuYRd8I1C_/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CvKVJBOoypv/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/CumSPSkoIRp/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CuCPHJ4KjdF/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CteL-71IOA1/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/Cs6I2pMIVQ6/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/CsWFyA4qeJh/embed/" frameborder="0" loading="lazy"></iframe>
+                <iframe src="https://www.instagram.com/p/Cr0qT4JtxEj/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div id="Curiosità" class="sezione">
+            <div class="container">
+                <iframe src="https://www.instagram.com/p/DDuRnkGMjHi/embed/" frameborder="0" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <div id="Tutorial" class="sezione">
+                <iframe src="https://www.youtube.com/embed/E2ygdLP1wqY" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/jSBKT3B_xOs" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/Ane465bSo6s" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/nYsh4xAbW3E" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/9QdEMMzJOj8" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/pdi662wKjpQ" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/D4xqcoeNzdw" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/LrU-pCoLA7Y" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/HY_wYr9h36w" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/MC0ImMVUJQ4" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/K9-sFWuF5a0" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/NQrcyiOaGW8" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+                <iframe src="https://www.youtube.com/embed/qzK_WZlrIrY" allowfullscreen frameborder="0" class="iframevideo" loading="lazy"></iframe>
+        </div>
+        
+        <button id="button_discord" onclick=discordClickEvent()>Visita il nostro Discord</button>
+        <footer>
+            <div id="footertext">PizzaGameDev© Tutti i diritti riservati.</div>
+        </footer>
+    </body>
+        <script src="../JS/Home.js"></script>
+</html>

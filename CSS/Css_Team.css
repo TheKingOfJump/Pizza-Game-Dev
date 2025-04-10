@@ -1,0 +1,295 @@
+body{
+    background-image: url("../IMG/PGD_doodle_grigio_v2.png") center center;
+    cursor: url("../IMG/Pixel_cursor.png"),auto;
+}
+
+button{
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    font-weight: bold;
+    color:white;
+    font-size: 2.2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    user-select: none;
+    border: solid 0.3vw #0a0a0a;
+    text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
+    cursor: url("../IMG/Pixel_pointer.png"),auto;
+}
+
+h1{
+    background-color: #DF4EB7;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    font-weight: bold;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.4vw;
+    user-select: none;
+    border: solid 0.3vw #0a0a0a;
+    text-shadow: -0.2vw -0.2vw 0 #000, 0.2vw -0.2vw 0 #000, -0.2vw 0.2vw 0 #000, 0.2vw 0.2vw 0 #000;
+    animation-name: slideInLeft;
+    animation-duration: 1.1s;
+    animation-timing-function: ease;
+}
+
+h2{
+    background-color: #DF4EB7;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    font-weight: bold;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    user-select: none;
+    border: solid 0.3vw #0a0a0a;
+    text-shadow: -0.15vw -0.15vw 0 #000, 0.15vw -0.15vw 0 #000, -0.15vw 0.15vw 0 #000, 0.15vw 0.15vw 0 #000;
+    animation-name: slideInLeft;
+    animation-duration: 1.1s;
+    animation-timing-function: ease;
+}
+
+p{
+    text-align: center;
+    background-color: #118AB2;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    font-weight: bold;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7vw;
+    user-select: none;
+    text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
+}
+
+strong{
+    font-size: 1.9vw;
+    color: green;
+}
+img{
+    user-select: none;
+    cursor: url("../IMG/Pixel_pointer.png"),auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFC34F;
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    color:rgb(44, 44, 44);
+    text-align: center;
+    font-size: 1vw;
+    user-select: none;
+}
+
+iframe{
+    width: 40vw;
+    height: 40vw;
+    margin-left: 29%;
+    margin-bottom: 2vw;
+    user-select: none;
+}
+
+#button_home{
+    margin-left: 3%;
+    background-color: #EF476F;
+    box-shadow: 0.3vw 0.3vw 0 0 #b32e4e, 0.3vw 0.3vw 0 .6vw black; 
+    animation-name: slideInTop;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+#button_home:hover{
+    transform: translate(0.3vw, 0.3vw);
+    background-color: #b63755;
+    box-shadow: 0 0 0 0 #b32e4e, 0 0 0 .6vw black;
+}
+
+#button_social{
+    margin-left: 8%;
+    background-color: #FFD166;
+    box-shadow: 0.3vw 0.3vw 0 0 #bf9d4d, 0.3vw 0.3vw 0 .4vw black;
+    animation-name: slideInTop;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+}
+
+#button_social:hover{
+    transform: translate(0.3vw, 0.3vw);
+    background-color: #be9c4d;
+    box-shadow: 0 0 0 0 #bf9d4d, 0 0 0 .4vw black;
+}
+
+#logo{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: -150vw;
+    height: 9vw;
+    animation-name: slideInTop;
+    animation-duration: 0.9s;
+    animation-timing-function: ease;
+}
+
+#button_team{
+    margin-left: 28%;
+    transform: translate( 0.3vw, 0.3vw);
+    background-color: #0c9671;
+    box-shadow: 0 0 0 0 #059c74, 0 0 0 .4vw black;
+    animation-name: slideInTop;
+    animation-duration: 1.1s;
+    animation-timing-function: ease;
+}
+
+#button_corsi{
+    position: absolute;
+    right: 5vw;
+    background-color: #118AB2;
+    box-shadow:  0.3vw  0.3vw 0 0 #0d6380,  0.3vw  0.3vw 0 .4vw black;
+    animation-name: slideInTop;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+}
+
+#button_corsi:hover{
+    transform: translate( 0.3vw, 0.3vw);
+    background-color: #0f6683;
+    box-shadow: 0 0 0 0 #0d6380, 0 0 0 .4vw black;
+}
+
+#CambioTema{
+    background-image: url("../IMG/Icona\ scuro.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 1.7vw;
+    margin-bottom: 4%;
+    margin-left: 97%;
+    width: 3%;
+    height: 2.5vw;
+    padding: 0;
+    border-radius: 25px;
+    background-color: rgb(28, 28, 28);
+    animation-name: slideInTop;
+    animation-duration: 0.7s;
+    animation-timing-function: ease;
+}
+
+#button_discord{
+    margin-top: 2vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10vh;
+    background-color: #7789DB;
+    box-shadow:  0.3vw  0.3vw 0 0 #5f6dad,  0.3vw  0.3vw 0 .4vw black;
+    animation-name: slideInDown;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+#button_discord:hover{
+    transform: translate( 0.3vw, 0.3vw);
+    background-color: #485694;
+    box-shadow: 0 0 0 0 #5f6dad, 0 0 0 .4vw black;
+}
+
+#Fett0{
+    position: fixed;
+    margin-top: 2vw;
+    margin-left: 52%;
+    top: 0;
+    height: 10vw;
+    display: none;
+    animation-name: slideInTop;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+.staff{
+    background-color: #118AB2;
+    width: 25vw;
+    padding: 0.5% 1%;
+    font-family: Pixa;
+    src: url(pixa.ttf);
+    font-weight: bold;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7vw;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+    border: solid 0.3vw #0a0a0a;
+    text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
+    animation-name: slideInLeft;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.propicbtn{
+    margin-top: 2vh;
+    margin-left: 9vw;
+    padding: 0;
+    background: transparent;
+    border-radius: 4vw;
+}
+
+.propic{
+    display: flex;
+    border-radius: 3vw;
+    width: 6vw;
+    height: auto;
+}
+
+@keyframes slideInTop{
+    from{
+        transform: translateY(-250px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-450px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInDown{
+    from{
+        transform: translateY(150px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}

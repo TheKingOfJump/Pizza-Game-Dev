@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PizzaGameDev Home</title>
+        <link rel="stylesheet" href="CSS/Css_PGD.css">
+    </head>  
+    <body onpageshow="TemaSelezionato()" id="BD">
+        <img id="Fett0" src="../SitoPGD/IMG/PerFett0-IndicataFelice.gif" alt="">
+        <button id="CambioTema" onclick="cambia()">
+        </button>
+        <div>
+            <button id="button_home" onclick=homeClickEvent()>Home</button>
+            <button id="button_social" onclick=socialClickEvent()>Social</button>
+            <button id="button_team" onclick=teamClickEvent()>Team</button>
+            <button id="button_corsi" onclick=corsiClickEvent()>Corsi</button>
+        </div>
+        <img id="logo" src="../SitoPGD/IMG/PizzaGameDevTrasp.png" alt="" onclick=logoClickEvent()>
+        <div>
+            <h1>Benvenuto su Pizza Game Dev</h1>
+        </div>
+        <div>
+            <p>Siamo una community di Game Dev che ha l'obiettivo di mettere in contatto aspiranti e professionisti Game Developer, in modo da dare un' opportunitunitá a chiunque abbia nel cassetto il sogno di sviluppare videogiochi. Se l'idea ti entusiasma sei il benvenuto nella nostra community!</p>
+        </div>
+        <button id="button_discord" onclick=discordClickEvent()>Visita il nostro Discord</button>
+        <iframe src="https://discord.com/widget?id=846657299174653952&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <footer>
+            <div id="footertext">PizzaGameDev© Tutti i diritti riservati.</div>
+        </footer>
+    </body>
+        <script src="JS/Home.js"></script>
+</html>

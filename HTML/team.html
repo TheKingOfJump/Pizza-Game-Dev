@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PizzaGameDev Team</title>
+        <link rel="stylesheet" href="../CSS/Css_Team.css">
+    </head>  
+    <body onpageshow="TemaSelezionato2()" id="BD">
+        <img id="Fett0" src="../IMG/PerFett0-IndicataFelice.gif" alt="">
+        <button id="CambioTema" onclick="cambia2()">
+        </button>
+        <div>
+            <button id="button_home" onclick=homeClickEvent2()>Home</button>
+            <button id="button_social" onclick=socialClickEvent2()>Social</button>
+            <button id="button_team" onclick=teamClickEvent2()>Team</button>
+            <button id="button_corsi" onclick=corsiClickEvent2()>Corsi</button>
+        </div>
+        <img id="logo" src="../IMG/PizzaGameDevTrasp.png" alt="" onclick=logoClickEvent2()>
+        <h2>Fondatori</h2>
+        <div class="container">
+            <div class="staff">
+                <button class="propicbtn" onclick="location.href= 'https://www.artstation.com/arien01'"><img src="../IMG/Logo Arien.png" alt="" class="propic"></button>
+                <p><strong>Arien</strong></p>
+                <p>Direttore generale</p>
+            </div>
+            <div class="staff">
+                <button class="propicbtn" onclick="location.href='https://www.instagram.com/_gabrymost_?igsh=Y3JrZHhwbW84YXAx'"><img src="../IMG/Gabrymost Logo.jpg" alt="" class="propic"></button>
+                <p><strong>Gabrymost</strong></p>
+                <p>Direttore social</p>
+            </div>
+            <div class="staff">
+                <button class="propicbtn"><img src="../IMG/Logo Ciccio.png" class="propic" alt=""></button>
+                <p><strong>Ciccio</strong></p>
+                <p>Direttore artistico</p>
+            </div>
+        </div>
+        <h2 id="staff">Staff</h2>
+        <div class="container">
+            <div class="staff">
+                <button class="propicbtn" onclick="location.href='https://github.com/alessandromarconcini'"><img src="../IMG/Logo Ale.png" alt="" class="propic"></button>
+                <p><strong>Ale</strong></p>
+                <p>Assistente community</p>
+            </div>
+            <div class="staff">
+                <button class="propicbtn"><img src="../IMG/Mike Logo.jpg" alt="" class="propic"></button>
+                <p><strong>MikeVoltage</strong></p>
+                <p>Amministratore community Discord</p>
+            </div>
+            <div class="staff">
+                <button class="propicbtn" onclick="location.href='https://github.com/Atom1cs1'"><img src="../IMG/Logo Atomics.jpeg" alt="" class="propic"></button>
+                <p><strong>Atomics</strong></p>
+                <p>Montatore video</p>
+            </div>
+        </div>
+        <br>
+        <button id="button_discord" onclick=discordClickEvent()>Visita il nostro Discord</button>
+        <footer>
+            <div id="footertext">PizzaGameDev© Tutti i diritti riservati.</div>
+        </footer>
+    </body>
+        <script src="../JS/Home.js"></script>
+</html>
