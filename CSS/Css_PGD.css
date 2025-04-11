@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Pixa';
-    src: url("../Font/pixa.ttf");
+    src: url(Font/pixa.ttf);
 }
 
 body{
@@ -11,7 +11,7 @@ body{
 button{
     padding: 0.5% 1%;
     font-family: 'Pixa';
-    src: url("../Font/pixa.ttf");
+    src: url(Font/pixa.ttf);
     font-weight: bold;
     color:white;
     font-size: 2.2vw;
@@ -50,7 +50,7 @@ p{
     margin-right: 19vh;
     padding: 0.5% 1%;
     font-family: 'Pixa';
-    src: url("../Font/pixa.ttf");
+    src: url(Font/pixa.ttf);
     font-weight: bold;
     color:white;
     align-items: center;
@@ -78,7 +78,7 @@ footer{
     background-color: #FFC34F;
     padding: 0.5% 1%;
     font-family: Pixa;
-    src: url(pixa.ttf);
+    src: url(Font/pixa.ttf);
     color:rgb(44, 44, 44);
     text-align: center;
     font-size: 1vw;
