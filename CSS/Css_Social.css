@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Pixa';
+    src: url("../Font/pixa.ttf");
+}
+
 body{
     background-image: url("../IMG/PGD_doodle_grigio_v2.png") center center;
     cursor: url("../IMG/Pixel_cursor.png"),auto;
@@ -5,7 +10,7 @@ body{
 
 button{
     padding: 0.5% 1%;
-    font-family: Pixa;
+    font-family: 'Pixa';
     src: url("../Font/pixa.ttf");
     font-weight: bold;
     color:white;
@@ -30,7 +35,7 @@ footer{
     right: 0;
     background-color: #FFC34F;
     padding: 0.5% 1%;
-    font-family: Pixa;
+    font-family: 'Pixa';
     src: url("../Font/pixa.ttf");
     color:rgb(44, 44, 44);
     text-align: center;
