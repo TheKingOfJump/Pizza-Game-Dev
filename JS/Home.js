@@ -138,7 +138,7 @@ async function socialClickEvent2(){
 }
 
 async function discordClickEvent(){
-    location.href='https://discord.com/invite/NfMYyUabAJ'
+    location.href='https://discord.gg/yPkuNrFG92'
 }
 
 async function instagramClickEvent(){
