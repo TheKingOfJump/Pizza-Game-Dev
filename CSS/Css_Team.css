@@ -228,11 +228,12 @@ iframe{
 }
 
 .staff{
+    margin-left: 13vw;
     background-color: #118AB2;
-    width: 25vw;
+    width: 70vw;
     padding: 0.5% 1%;
-    font-family: 'Pixa';
-    src: url("../Font/pixa.ttf");
+    font-family: Pixa;
+    src: url(pixa.ttf);
     font-weight: bold;
     color:white;
     align-items: center;
@@ -255,8 +256,9 @@ iframe{
 }
 
 .propicbtn{
-    margin-top: 2vh;
-    margin-left: 9vw;
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 1vw;
     padding: 0;
     background: transparent;
     border-radius: 4vw;
@@ -375,20 +377,27 @@ iframe{
     }
 
     #button_discord{
+        margin-top: 7%;
         margin-left: 22%;
         margin-right: 20%;
     }
 
     .propicbtn{
-        margin-top: 2vh;
-        margin-left: 7.5vw;
+        margin-left: 1vw;
+        margin-top: 3vw;
         border-radius: 6vw;
     }
 
     .propic{
         border-radius: 5vw;
-        width: 10vw;
+        width: 7vw;
         height: auto;
+    }
+
+    .staff{
+        margin-left: 2vw;
+        width: 85vw;
+        border: solid 0.5vw #0a0a0a;
     }
 
 }
