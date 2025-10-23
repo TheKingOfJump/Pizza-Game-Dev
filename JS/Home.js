@@ -89,12 +89,10 @@ async function TemaSelezionato3(){
         Autori.classList.remove('visibile');
         Ruoli.classList.remove('visibile');
         Curiosità.classList.remove('visibile');
-        Tutorial.classList.remove('visibile');
         GeneriBTN.style.backgroundColor = 'rgb(0, 255, 213)';
         AutoriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         RuoliBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         CuriositàBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-        TutorialBTN.style.backgroundColor = 'rgb(163, 252, 103)';
     if (sfondo === "chiaro"){
             document.querySelector('body').style.background = "url('../IMG/PGD_doodle_grigio_v2.png') center center";
             document.querySelector('body').style.backgroundSize = "250%";
@@ -193,19 +191,17 @@ var Generi = document.getElementById('Generi');
 var Autori = document.getElementById('Autori');
 var Ruoli = document.getElementById('Ruoli');
 var Curiosità = document.getElementById('Curiosità');
-var Tutorial = document.getElementById('Tutorial');
+
 
 async function SezioneGeneri() {
         Generi.classList.add('visibile');
         Autori.classList.remove('visibile');
         Ruoli.classList.remove('visibile');
         Curiosità.classList.remove('visibile');
-        Tutorial.classList.remove('visibile');
         GeneriBTN.style.backgroundColor = 'rgb(0, 255, 213)';
         AutoriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         RuoliBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         CuriositàBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-        TutorialBTN.style.backgroundColor = 'rgb(163, 252, 103)';
 }
 
 async function SezioneAutori() {
@@ -213,12 +209,10 @@ async function SezioneAutori() {
         Autori.classList.add('visibile');
         Ruoli.classList.remove('visibile');
         Curiosità.classList.remove('visibile');
-        Tutorial.classList.remove('visibile');
         GeneriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         AutoriBTN.style.backgroundColor = 'rgb(0, 255, 213)';
         RuoliBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         CuriositàBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-        TutorialBTN.style.backgroundColor = 'rgb(163, 252, 103)';
 }
 
 async function SezioneRuoli() {
@@ -226,12 +220,10 @@ async function SezioneRuoli() {
         Autori.classList.remove('visibile');
         Ruoli.classList.add('visibile');
         Curiosità.classList.remove('visibile');
-        Tutorial.classList.remove('visibile');
         GeneriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         AutoriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
         RuoliBTN.style.backgroundColor = 'rgb(0, 255, 213)';
         CuriositàBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-        TutorialBTN.style.backgroundColor = 'rgb(163, 252, 103)';
 }
 
 async function SezioneCuriosità() {
@@ -239,23 +231,8 @@ async function SezioneCuriosità() {
     Autori.classList.remove('visibile');
     Ruoli.classList.remove('visibile');
     Curiosità.classList.add('visibile');
-    Tutorial.classList.remove('visibile');
     GeneriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
     AutoriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
     RuoliBTN.style.backgroundColor = 'rgb(163, 252, 103)';
     CuriositàBTN.style.backgroundColor = 'rgb(0, 255, 213)';
-    TutorialBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-}
-
-async function SezioneTutorial() {
-    Generi.classList.remove('visibile');
-    Autori.classList.remove('visibile');
-    Ruoli.classList.remove('visibile');
-    Curiosità.classList.remove('visibile');
-    Tutorial.classList.add('visibile');
-    GeneriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-    AutoriBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-    RuoliBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-    CuriositàBTN.style.backgroundColor = 'rgb(163, 252, 103)';
-    TutorialBTN.style.backgroundColor = 'rgb(0, 255, 213)';
 }
