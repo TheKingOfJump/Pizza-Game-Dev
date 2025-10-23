@@ -144,7 +144,7 @@ async function instagramClickEvent(){
 }
 
 async function youtubeClickEvent(){
-    location.href='https://www.youtube.com/@PizzaGameDev'
+    location.href='https://www.youtube.com/@Pizza-Game-Dev'
 }
 
 async function redditClickEvent(){
