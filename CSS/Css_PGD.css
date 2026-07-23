@@ -227,6 +227,16 @@ iframe{
     animation-duration: 0.5s;
     animation-timing-function: ease;
 }
+
+#Calendario{
+    margin-top: 1vw;
+    margin-left: 13%;
+    top: 0;
+    height: 40vw;
+    margin-bottom: 5vw;
+    border-radius: 4vw;
+}
+
 @keyframes slideInTop{
     from{
         transform: translateY(-250px);
@@ -314,7 +324,7 @@ iframe{
     }
     
     #button_team{
-        margin-left: 20%;
+        margin-left: 18%;
     }
     
     #button_corsi{
